@@ -13,7 +13,7 @@ RUN pip install opencv-python
 COPY main.py /app/main.py
 COPY samplee.jpg /app/samplee.jpg
 
-# Устанавливаем рабочую директорию
+# Устанавливаем рабочую директорию.
 WORKDIR /app
 
 # Команда для запуска приложения
