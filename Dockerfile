@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y \
 # Установка библиотеки OpenCV
 RUN pip install opencv-python
 
-# Копируем приложение и изображение в контейнер
+# Копируем приложение и изображение в контейнерс
 COPY main.py /app/main.py
 COPY samplee.jpg /app/samplee.jpg
 
